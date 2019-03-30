@@ -4,6 +4,7 @@ set_include_path("/home/buffsove/public_html/");
 include("packageloader.php");
 
 $response = [];
+class User {}
 
 $username = $_POST['username'];
 $password = md5(md5($_POST['password']));

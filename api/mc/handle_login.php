@@ -3,7 +3,8 @@ session_start();
 set_include_path("/home/buffsove/public_html/");
 include("packageloader.php");
 
-PackageLoader::Minecraft();
+class User {};
+
 $response = [];
 
 $username = $_POST['username'];

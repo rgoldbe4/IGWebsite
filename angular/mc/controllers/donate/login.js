@@ -21,7 +21,6 @@ function LoginController(httpCall, $timeout) {
             httpCall.post("/api/mc/handle_login.php", { username: vm.username, password: vm.password }).then(function (response) {
                 var data = response.data.data;
                 var result = response.data.result;
-                console.log(response);
                 if (data) {
                     //Login to shop with userID, playerID, and username.
                     httpCall.post("/api/mc/login_to_session.php", { ID: data.ID, username: data.username, playerID: data.playerID }).then(
