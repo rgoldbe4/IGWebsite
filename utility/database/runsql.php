@@ -1,7 +1,7 @@
 <?php
 
 function RunSQL($sql) {
-    //Just a fun note: the host never changes.
+    //This connects to the Minecraft Database, which is what the plugin uses.
     $connection = new mysqli("66.85.144.162", "mcph746387", "0a59de0688", "mcph746387");
     // Check connection, if it fails, simply display it on the page...
     if ($connection->connect_error) {

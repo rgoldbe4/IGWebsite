@@ -1,12 +1,12 @@
 <?php
 session_start();
-
+//set_include_path("/home/buffsove/public_html/");
 ?>
 <html>
     <head>
         <title>Ignition Gaming - Minecraft - Donate</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <?php include_once("default_sources.php"); ?>
+        <?php include_once("/home/buffsove/public_html/default_sources.php"); ?>
 
     </head>
     <style>
