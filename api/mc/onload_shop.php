@@ -1,5 +1,6 @@
 <?php
 session_start();
+set_include_path("/home/buffsove/public_html/");
 include("packageloader.php");
 
 //Create blank classes... ->fetch_object will write the variables for us.
